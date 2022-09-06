@@ -20,7 +20,7 @@ services:
       - .env
     restart: unless-stopped
     ports:
-      - 3000:3000
+      - 3666:3666
     depends_on:
       - 'postgres'
 volumes:
