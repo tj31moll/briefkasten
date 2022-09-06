@@ -82,8 +82,8 @@ COPY --from=build --chown=nextjs:nodejs /app/node_modules ./node_modules
 USER nextjs
 
 # expose and set port number to 3000
-EXPOSE 3000
-ENV PORT 3000
+EXPOSE 3666
+ENV PORT 3666
 
 # enable run as production
 ENV NODE_ENV=production
